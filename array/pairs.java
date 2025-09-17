@@ -1,7 +1,7 @@
 import java.util.*;
  public class pairs{
     public static void pairsPrints(int numbers[]){
-        int tp =0;
+        int tp =0; // for counting total number of pairs 
         for(int i= 0; i<numbers.length; i++) {
             int curr = numbers[i];
             for(int j=i+1; j<numbers.length; j++) {
